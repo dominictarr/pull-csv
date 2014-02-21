@@ -1,7 +1,7 @@
 {
   "name": "pull-csv",
-  "description": "",
-  "version": "0.0.0",
+  "description": "parse/stringify csv data with pull streams",
+  "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/pull-csv",
   "repository": {
     "type": "git",
