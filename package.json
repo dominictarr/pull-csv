@@ -1,0 +1,20 @@
+{
+  "name": "pull-csv",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/pull-csv",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/pull-csv.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "pull-stream": "~2.21.1",
+    "tape": "~2.4.2"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
+  "license": "MIT"
+}
