@@ -14,7 +14,7 @@ exports.parseLine = function (line) {
       ? cell.substring(1, cell.length - 1)
       : cell
     )
-  }
+  })
 }
 exports.stringifyLine = function (line) {
   return line.map(function (cell) {
@@ -26,12 +26,10 @@ exports.stringifyLine = function (line) {
 exports.decode =
 exports.parse = function () {
   return map(exports.parseLine)
-  })
 }
 
 exports.encode =
 exports.stringify = function () {
   return map(exports.stringifyLine)
 }
-
 
