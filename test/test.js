@@ -10,6 +10,7 @@ tape('simple', function (t) {
     ['a', '123', '324', 'hello there'],
     ['b', '123', '324', 'hello, there'],
     ['c', '123', ''   , 'hello there'],
+    ['','',''],
     ['d', ''   , 'aoeu oaeu j jn'  , 'hello, there'],
   ]
 
