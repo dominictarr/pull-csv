@@ -7,9 +7,10 @@
     "type": "git",
     "url": "git://github.com/dominictarr/pull-csv.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "pull-stream": "~2.21.1"
+  },
   "devDependencies": {
-    "pull-stream": "~2.21.1",
     "tape": "~2.4.2"
   },
   "scripts": {
