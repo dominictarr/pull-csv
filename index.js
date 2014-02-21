@@ -2,10 +2,14 @@ var map = require('pull-stream').map
 //split lines into csv, including escaping commas
 
 
-var splitter = /(\s*"[^"]*"\s*|[^,]*)/
+var splitter = /(^[^,]*|\s*"[^"]*"\s*|[^,]*)/
 
 exports.parseLine = function (line) {
-  return line.split(splitter).filter(function (_, i) {
+  var cells = line.split(splitter)
+
+  if(cells[0] === ',')
+    cells.splice(0, 0, '', '')
+  return cells.filter(function (_, i) {
     return i % 2
   }).map(function (cell) {
     cell = cell.trim()
