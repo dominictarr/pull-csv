@@ -1,14 +1,14 @@
 {
   "name": "pull-csv",
   "description": "parse/stringify csv data with pull streams",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/pull-csv",
   "repository": {
     "type": "git",
     "url": "git://github.com/dominictarr/pull-csv.git"
   },
   "dependencies": {
-    "pull-stream": "~2.21.1"
+    "pull-stream": "^2.22.0"
   },
   "devDependencies": {
     "tape": "~2.4.2"
